@@ -10,10 +10,10 @@ Public Key Cryptographic Standards is a password protected format that can conta
 Java KeyStore is similar to PKCS12; it’s a proprietary format and is limited to the Java environment.
 We can use either of keytool or OpenSSL tools to generate the certificates from the command line. Keytool is shipped with Java Runtime Environment and OpenSSL could be downloaded from OpenSSL.
 
-- Let’s use keytool for our demonstration.
+Let’s use keytool for our demonstration.
 
 ### Generating a Keystore
-  Now we’ll create a set of cryptographic keys and store it in a keystore.
+- Now we’ll create a set of cryptographic keys and store it in a keystore.
 
 > We can use the following command to generate our PKCS12 keystore format:
   ```sh
@@ -31,7 +31,9 @@ We can use either of keytool or OpenSSL tools to generate the certificates from 
   keytool -importkeystore -srckeystore baeldung.jks -destkeystore baeldung.p12 -deststoretype pkcs12
   ```
 
+**Thanks**
 
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
 [Keytool]: <https://docs.oracle.com/javase/6/docs/technotes/tools/solaris/keytool.html>
 [OpenSSL]: <https://www.openssl.org/>
