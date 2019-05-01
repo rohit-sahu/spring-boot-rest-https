@@ -17,18 +17,18 @@ Let’s use keytool for our demonstration.
 
 > We can use the following command to generate our PKCS12 keystore format:
   ```sh
-  keytool -genkeypair -alias baeldung -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore baeldung.p12 -validity 3650
+  keytool -genkeypair -alias rohit -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore rohit.p12 -validity 3650
   ```
   We can store as many numbers of key-pair in the same keystore each identified by a unique alias.
 
 > For generating our keystore in a JKS format, we can use the following command:
   ```sh
-  keytool -genkeypair -alias baeldung -keyalg RSA -keysize 2048 -keystore baeldung.jks -validity 3650
+  keytool -genkeypair -alias rohit -keyalg RSA -keysize 2048 -keystore rohit.jks -validity 3650
   ```
 
 > It is recommended to use the PKCS12 format which is an industry standard format. So in case we already have a JKS keystore, we can         convert it to PKCS12 format using the following command:
   ```sh
-  keytool -importkeystore -srckeystore baeldung.jks -destkeystore baeldung.p12 -deststoretype pkcs12
+  keytool -importkeystore -srckeystore rohit.jks -destkeystore rohit.p12 -deststoretype pkcs12
   ```
 
 **Thanks**
