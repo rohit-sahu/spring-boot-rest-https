@@ -8,7 +8,7 @@ Before getting started, we’ll create a self-signed certificate. We’ll use ei
 Public Key Cryptographic Standards is a password protected format that can contain multiple certificates and keys; it’s an industry-wide used format
 * JKS : 
 Java KeyStore is similar to PKCS12; it’s a proprietary format and is limited to the Java environment.
-We can use either of keytool or OpenSSL tools to generate the certificates from the command line. Keytool is shipped with Java Runtime Environment and OpenSSL could be downloaded from OpenSSL.
+We can use either of keytool or [OpenSSL] tools to generate the certificates from the command line. [Keytool] is shipped with Java Runtime Environment and OpenSSL could be downloaded from [OpenSSL].
 
 Let’s use keytool for our demonstration.
 
