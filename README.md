@@ -10,7 +10,7 @@ Public Key Cryptographic Standards is a password protected format that can conta
 Java KeyStore is similar to PKCS12; it’s a proprietary format and is limited to the Java environment.
 We can use either of keytool or OpenSSL tools to generate the certificates from the command line. Keytool is shipped with Java Runtime Environment and OpenSSL could be downloaded from OpenSSL.
 
--Let’s use keytool for our demonstration.
+- Let’s use keytool for our demonstration.
 
 ### Generating a Keystore
   Now we’ll create a set of cryptographic keys and store it in a keystore.
