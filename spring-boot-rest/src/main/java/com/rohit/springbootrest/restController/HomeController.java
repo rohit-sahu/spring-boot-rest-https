@@ -12,7 +12,7 @@ public class HomeController {
 	
 	@GetMapping(value = "/")
 	public String home() {
-		logger.info("Home has been called..............");
+		logger.info("Home has been called............../");
 		return "Hello World!";
 	}
 }
